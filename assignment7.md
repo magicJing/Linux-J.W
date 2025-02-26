@@ -27,6 +27,26 @@
 - *Containers*: More potential attack surface through the shared kernel, though modern container security features have significantly improved isolation.
 
 ## Part 2:Working with Multipass
+**Basic commands:** 
+
+- *multipass boot*: multipass launch --nanme myubuntu
+- *multipass list*: multipass list
+- *multipass info*: multipass info myubuntu
+![alt text](image/7.png)
+- *multipass shell*: multipass shell myubuntu
+![alt text](image/77.png)
+- *multipass exec*: multipass exec myubuntu -- ls /
+- *multipass stop*: multipass stop myubuntu
+- *multipass delete*: multipass delete myubuntu
+![alt text](image/777.png)
+
+**Cloud-init:**Study: Learn about cloud-initi and how it can be used to configure virtual machines
+
+**Experiment:** Create a cloud-init configuration file to customize the installation of a new instance. For example, you can install specific packages or assign users. Start a new instance of Multipass using this configuration.
+
+**File sharing:**Find out: Explore how to share files and folders between your host computer and Multipass instances
+
+**Policy:** Create a shared folder and access it from both your host and your Multipass instance.
 
 ## Part 3:Exploring LXD
 
