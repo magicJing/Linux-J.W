@@ -50,6 +50,27 @@
 
 ## Part 3:Exploring LXD
 
+*Create an Ubuntu container*
+
+*enter container*
+
+![alt text](image/LXD1.png)
+
+*excute task in container*
+
+![alt text](image/LXD2.png)
+
+*stop and delete container*
+
+![alt text](image/LXD3.png)
+
 ## part 4:How to Stick Apps with Docker
 
+
+Experiment: Follow the "Docker Workshop" to get hands-on experience with Docker.
 ## Part 5:Snaps for Self-Contained Applications
+Snaps provides a way to package applications with their dependencies for consistent execution on Linux distributions.
+
+·        Research: Using sources, explore Snapcraft and the concept of Snaps.
+
+Experiment: Choose a simple app and compress it into Snap using Snapcraft. For more information, you can find "Snapcraft" - from the source.
