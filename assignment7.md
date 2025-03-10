@@ -40,13 +40,15 @@
 - *multipass delete*: multipass delete myubuntu
 ![alt text](image/777.png)
 
-**Cloud-init:**Study: Learn about cloud-initi and how it can be used to configure virtual machines
+**Cloud-init:**
 
-**Experiment:** Create a cloud-init configuration file to customize the installation of a new instance. For example, you can install specific packages or assign users. Start a new instance of Multipass using this configuration.
+*Experiment:* Create a cloud-init configuration file to customize the installation of a new instance. 
+![alt text](image/7.2.png)
 
-**File sharing:**Find out: Explore how to share files and folders between your host computer and Multipass instances
 
-**Policy:** Create a shared folder and access it from both your host and your Multipass instance.
+*File sharing:* tried several times ,still can't solve this problem.
+![alt text](image/7.22.png)
+
 
 ## Part 3:Exploring LXD
 
@@ -65,12 +67,32 @@
 ![alt text](image/LXD3.png)
 
 ## part 4:How to Stick Apps with Docker
+*install Docker engine*
+![alt text](image/7.4.png)
+
+*create a Dockerfile*
+![alt text](image/7.44.png)
+
+*create a Docker image:*
+![alt text](image/7.444.png)
+- *run*
+
+- *visit web server*
+
+- *stop and delete*
+![alt text](image/7.4444.png)
+![alt text](image/7.44444.png)
 
 
-Experiment: Follow the "Docker Workshop" to get hands-on experience with Docker.
+
 ## Part 5:Snaps for Self-Contained Applications
-Snaps provides a way to package applications with their dependencies for consistent execution on Linux distributions.
+*installed snapcraft*
+*created a snap package:*
+- created a project directory
+- initialize the snap project
+- edit the snapcraft.yaml file
+- build the snap package
+- install and test the snap package
 
-·        Research: Using sources, explore Snapcraft and the concept of Snaps.
-
-Experiment: Choose a simple app and compress it into Snap using Snapcraft. For more information, you can find "Snapcraft" - from the source.
+![alt text](image/7.5.png)
+![alt text](image/7.55.png)
